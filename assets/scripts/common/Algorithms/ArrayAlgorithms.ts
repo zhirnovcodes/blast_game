@@ -12,7 +12,7 @@ export  class ArrayAlgorithms{
             let x = i % width;
             let y = Math.floor(i / width);
 
-            let iRand =  Math.floor(Math.random() * (i + 1));
+            let iRand =  Math.floor(Math.random() * i);
 
             let xRand = iRand % width;
             let yRand = Math.floor(iRand / width);
