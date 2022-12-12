@@ -14,8 +14,10 @@ export class Vec2Int{
 }
 */
 
-import { Vec2 } from "cc";
+import { _decorator, Vec2 } from "cc";
+const { ccclass, property } = _decorator;
 
+@ccclass('Vec2Int')
 export class Vec2Int extends Vec2{
     toVec2() : Vec2{
         return this as Vec2;
