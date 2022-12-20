@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Color, Sprite } from 'cc';
+import { _decorator, Color, Sprite } from 'cc';
 import { BlockBase } from './BlockBase';
 const { ccclass, property, executeInEditMode } = _decorator;
 
